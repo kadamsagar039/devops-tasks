@@ -1,0 +1,3 @@
+1. killall -w gunicorn
+3. cat filename.json | awk  if {{ $1 == "version" } && { $2 == { } } then '{ print $2 }' 
+    
